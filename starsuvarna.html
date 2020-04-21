@@ -1,0 +1,269 @@
+<DOCTYPE! html>
+<html>
+<title>Star Suvarna Tv</title>
+<head>
+<h1>Welcome to Star Suvarna Channels</h1>
+<h3>Please select any of the serial you want to review below</h3>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="stylesheet.css">
+<style>
+
+html{
+border: 10px solid black;
+}
+body{
+background: #ffcc99;
+}
+a{
+text-decoration: none;
+color:blue;
+}
+
+#more {display: none;}
+
+table,td,tr,th{
+border: 2px solid black ;
+border-collapse: collapse;
+}
+th{
+font-size: 28;
+}
+
+td{
+padding-left: 10px;
+font-size: 22px;
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+
+div.ex1 {
+  background-color: lightblue;
+  height: 200;
+  width: 400;
+   overflow: scroll;
+}
+
+.checked {
+  color: orange;
+}
+</style>
+</head>
+
+<body>
+
+
+<table  align ="center" cellpadding="20px">
+<tr>
+<th align="left" width="30%">Serials</th>
+<th  width="30%">Description</th>
+<th  width="20%">Ratings</th>
+<th  width="20%">Feedback(optional)</th>
+</tr>
+
+<tr>
+<td >Muddu Lakshmi
+<img src="muddu.jpg" width="100%" height="100%" />
+</td>
+<td ><div class="ex1">
+A young woman faces the problems that come with having a dark complexion, within her family and in society. Things take a turn when she gets married to Dhruvanth.
+
+</div>
+</td>
+<td>
+<center>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</center>
+</td>
+
+<td>
+
+Rating:
+<span class="starRating">
+<input id="rating5" type="radio" name="rating" value="5" onclick="myfunc5()">
+<label for="rating5">5</label>
+<input id="rating4" type="radio" name="rating" value="4"onclick="myfunc4() ">
+<label for="rating4">4</label>
+<input id="rating3" type="radio" name="rating" value="3" onclick="myfunc3()">
+<label for="rating3">3</label>
+<input id="rating2" type="radio" name="rating" value="2"onclick="myfunc2()" >
+<label for="rating2">2</label>
+<input id="rating1" type="radio" name="rating" value="1"onclick="myfunc1()"  >
+<label for="rating1">1</label>
+</span>
+    
+</td>
+</tr>
+
+<tr>
+<td >Aramane Gili
+<img src="aramane.jpg" width="100%" height="100%">
+</td>
+<td >
+<div class="ex1">
+<p>Due to unforeseen circumstances, Meera, the young and cheerful daughter of a farmer, is forced to marry Arjun, her father's rich employer, who uses a wheelchair.
+
+ </div>
+
+</td>
+
+<td>
+<center>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</center>
+</td>
+
+<td>
+Rating:
+<span class="starRating">
+        <input id="ratin5" type="radio" name="rating1" value="5" onclick="myfunc5()">
+        <label for="ratin5">5</label>
+        <input id="ratin4" type="radio" name="rating1" value="4" onclick="myfunc4()">
+        <label for="ratin4">4</label>
+        <input id="ratin3" type="radio" name="rating1" value="3" onclick="myfunc3()">   
+		<label for="ratin3">3</label>
+        <input id="ratin2" type="radio" name="rating1" value="2" onclick="myfunc2()">
+        <label for="ratin2">2</label>
+        <input id="ratin1" type="radio" name="rating1" value="1" onclick="myfunc1()">
+        <label for="ratin1">1</label>
+ </span>
+</td>
+</tr>
+
+<tr>
+<td>Varalakshmi Stores
+<img src="vara.jpg" width="100%" height="100%" />
+</td>
+<td>
+<div class="ex1">
+Ramamurthy and his brothers run Varalakshmi Stores while his wife Saraswati takes care of the family. However, their bonding and relationships face various challenges and adversities.
+
+
+
+</div>
+</td>
+
+<td>
+<center>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</center>
+</td>
+
+<td>
+Rating:
+<span class="starRating">
+        <input id="rati5" type="radio" name="rating2" value="5" onclick="myfunc5()">
+        <label for="rati5">5</label>
+        <input id="rati4" type="radio" name="rating2" value="4" onclick="myfunc4()">
+        <label for="rati4">4</label>
+        <input id="rati3" type="radio" name="rating2" value="3" onclick="myfunc3()">
+        <label for="rati3">3</label>
+        <input id="rati2" type="radio" name="rating2" value="2" onclick="myfunc2()">
+        <label for="rati2">2</label>
+        <input id="rati1" type="radio" name="rating2" value="1" onclick="myfunc1()">
+        <label for="rati1">1</label>
+     </span>
+</td>
+
+</tr>
+
+<tr>
+<td>Janaki Raghava
+<img src="janaki.jpg" width="100%" height="100%" / >
+</td>
+<td>
+<div class="ex1">
+Janaki, an ardent devotee of Lord Rama, is adamant on uniting his statue with the statue of Seetha. With this intention in mind, she marries a business tycoon, Raghava.
+
+</div>
+</td>
+<td>
+<center>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</center>
+</td>
+<td>
+
+      Rating:
+      <span class="starRating">
+        <input id="rat5" type="radio" name="rating3" value="5" onclick="myfunc5()">
+        <label for="rat5">5</label>
+        <input id="rat4" type="radio" name="rating3" value="4" onclick="myfunc4()">
+        <label for="rat4">4</label>
+        <input id="rat3" type="radio" name="rating3" value="3" onclick="myfunc3()">
+        <label for="rat3">3</label>
+        <input id="rat2" type="radio" name="rating3" value="2" onclick="myfunc2()">
+        <label for="rat2">2</label>
+        <input id="rat1" type="radio" name="rating3" value="1" onclick="myfunc1()">
+        <label for="rat1">1</label>
+      </span></br></br>
+    
+</td>
+</tr>
+</table>
+<p id ="11">   </p>
+
+<script>
+function myfunc1(){
+alert("The rating is 1 stars");
+document.getElementById("11").innerHTML="1 starts";
+}
+function myfunc2(){
+alert("The rating is 2 stars");
+document.getElementById("11").innerHTML="2 starts";
+}
+function myfunc3(){
+alert("The rating is 3 stars");
+document.getElementById("11").innerHTML="3 starts";
+}
+function myfunc4(){
+alert("The rating is 4 stars");
+document.getElementById("11").innerHTML="4 starts";
+}
+function myfunc5(){
+alert("The rating is 5 stars");
+document.getElementById("11").innerHTML="5 starts";
+}
+
+
+
+</script>
+
+<footer>
+<p> For any complaints about this channels contact:
+<a href="mailto:StarSuvarna@gmail.com">StarSuvarna@gmail.com
+</a></p> 
+<a href= "allstar.html">Go back to the previous page</a>
+
+</footer>
+</body>
+</html>
+

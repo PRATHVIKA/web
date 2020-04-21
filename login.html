@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>Login Page</title>
+<style>
+#bg{
+background-image: url(back2.jpg); 
+background-repeat: repeat;          
+}
+</style>
+</head>
+<body id="bg">
+<center>
+<form name="loginForm" method="post" action="login.php">
+<div id ="bg">
+<table width="40%" bgcolor="0099CC" align="center">
+
+<tr>
+<td colspan=2><center><font size=6><b>HTML Login Page</b></font></center></td>
+</tr>
+
+<tr>
+<td style="font-size:26">Username:</td>
+<td><input type="text" size=29 name="userid"></td>
+</tr>
+
+<tr>
+<td style="font-size:26" >Password:</td>
+<td style="font-size:26" > <input type="Password" size=29 name="pwd"></td>
+</tr>
+
+<tr>
+<td ><input type="Reset"></td>
+<td><input type="submit" onclick="return check(this.form)" value="Login"></td>
+</tr>
+
+</table>
+
+</form>
+<script language="javascript">
+function check(form)
+{
+
+if(form.userid.value == "Naruto" && form.pwd.value == "Naruto")
+{
+	window.open("re1.html");
+	window.close("login.html");
+}
+else
+{
+	alert("Error Password or Username")
+	return false;
+}
+}
+</script>
+
+</body>
+</html>

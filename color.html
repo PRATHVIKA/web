@@ -1,0 +1,321 @@
+<DOCTYPE! html>
+<html>
+<title>Colors Hindi Tv</title>
+<head>
+<h1>Welcome to Colors Hindi</h1>
+<h3>Please select any of the serial you want to review below</h3>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="stylesheet.css">
+<style>
+
+a{
+text-decoration: none;
+color:blue;
+}
+
+html{
+border: 10px solid black;
+}
+
+#more {display: none;}
+
+table,td,tr,th{
+border: 3px solid blue ;
+border-collapse: collapse;
+}
+th{
+font-size: 28;
+}
+
+td{
+padding-left: 10px;
+font-size: 22px;
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+
+div.ex1 {
+  background-color: lightblue;
+  height: 200;
+  width: 400;
+   overflow: scroll;
+}
+
+.checked {
+  color: orange;
+}
+body{
+background:#b3b3ff;
+}
+
+</style>
+</head>
+
+<body>
+
+
+<table  align ="center" cellpadding="20px">
+<tr>
+<th align="left" width="30%">Serials</th>
+<th  width="30%">Description</th>
+<th  width="20%">Ratings</th>
+<th  width="20%">Feedback(optional)</th>
+</tr>
+
+<tr>
+<td >Big Boss
+<img src="bigboss.jpg" width="100%" height="100%" />
+</td>
+<td ><div class="ex1">
+Bigg Boss is a reality show based on the original 
+Dutch Big Brother format developed by John de Mol. 
+A number of contestants (known as "housemates") live 
+in a purpose-built house and are isolated from the rest 
+of the world. Each week, housemates nominate two of their 
+peers for eviction, and the housemates who receives the 
+most nominations would face a public vote. Of these, one 
+would eventually leave, having been "evicted" from the House.
+ However, there were exceptions to this process as dictated 
+ by Bigg Boss. In the final week, there were three housemates 
+ remaining, and the public voted for who they wanted to win. 
+ The housemates in the Indian version are primarily celebrities
+ with the exception of one who is a non-celebrity selected via
+ auditions. Housemates are overseen by a mysterious person 
+ known as 'Bigg Boss', whose only presence in the house is 
+ through his voice
+</div>
+</td>
+<td>
+<center>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+</center>
+</td>
+
+<td>
+
+Rating:
+<span class="starRating">
+<input id="rating5" type="radio" name="rating" value="5" onclick="myfunc5()">
+<label for="rating5">5</label>
+<input id="rating4" type="radio" name="rating" value="4"onclick="myfunc4() ">
+<label for="rating4">4</label>
+<input id="rating3" type="radio" name="rating" value="3" onclick="myfunc3()">
+<label for="rating3">3</label>
+<input id="rating2" type="radio" name="rating" value="2"onclick="myfunc2()" >
+<label for="rating2">2</label>
+<input id="rating1" type="radio" name="rating" value="1"onclick="myfunc1()"  >
+<label for="rating1">1</label>
+</span>
+    
+</td>
+</tr>
+
+<tr>
+<td >Naagin
+<img src="naagin.jpg" width="100%" height="100%">
+</td>
+<td >
+<div class="ex1">
+<p>Naagin (transl.Female serpent) is an Indian 
+supernatural fantasy thriller television series produced 
+by Ekta Kapoor under Balaji Telefilms. The series traces 
+the lives of shape-shifting serpent women. In every season, 
+these serpents fight evil and keep the ultimate source of 
+power, the 'naagmani', safe from evil.
+The first season premiered on 1 November 2015 and ended on 
+5 June 2016 after 62 episodes.It starred Mouni Roy, 
+Arjun Bijlani, Adaa Khan and Sudha Chandran. 
+It became one of the highest rated shows on Indian television.
+The second season aired from 8 October 2016 to 25 June 2017 
+with 75 episodes.It starred Mouni Roy, Karanvir 
+Bohra, Adaa Khan, Kinshuk Mahajan and Sudha Chandran, 
+with Mouni Roy as Shivanya in extended special appearance.
+The third season aired from 2 June 2018 to 26 May 2019 with 
+103 episodes.It starred Surbhi Jyoti, Pearl V Puri, 
+Anita Hassanandani, Rajat Tokas and Rakshanda Khan, with 
+Karishma Tanna in extended special appearance.
+The fourth season adapted with a new title Naagin: 
+Bhagya Ka Zehreela Khel premiered on 14 December 2019.
+ It starred Nia Sharma, Jasmin Bhasin, Sayantani Ghosh, 
+ Vijayendra Kumeria, Anita Hassanandani and Rashami Desai.
+ </div>
+
+</td>
+
+<td>
+<center>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</center>
+</td>
+
+<td>
+Rating:
+<span class="starRating">
+        <input id="ratin5" type="radio" name="rating1" value="5" onclick="myfunc5()">
+        <label for="ratin5">5</label>
+        <input id="ratin4" type="radio" name="rating1" value="4" onclick="myfunc4()">
+        <label for="ratin4">4</label>
+        <input id="ratin3" type="radio" name="rating1" value="3" onclick="myfunc3()">   
+		<label for="ratin3">3</label>
+        <input id="ratin2" type="radio" name="rating1" value="2" onclick="myfunc2()">
+        <label for="ratin2">2</label>
+        <input id="ratin1" type="radio" name="rating1" value="1" onclick="myfunc1()">
+        <label for="ratin1">1</label>
+ </span>
+</td>
+</tr>
+
+<tr>
+<td>Udaan
+<img src="udaan.jpg" width="100%" height="50%" />
+</td>
+<td>
+<div class="ex1">
+Udaan is an Indian social drama television
+ series that aired on Colors TV from 18 August 2014 to 28 June
+ 2019. From 2014 to 2016, the show starred child actor Spandan
+ Chaturvedi who played Young Chakor.It then took a generation leap 
+ and from 2016 to 2019, the show revolved around Chakor, Suraj, Imli and Vivaan played
+by Meera Deosthale, Vijayendra Kumeria, Vidhi Pandya and 
+Paras Arora. In 2019, the show took another leap and 
+focused on Saanvi aka Anjor and Sameer played by Tanya Sharma
+ and Gaurav Sareen.
+
+Udaan highlighted the issue of bonded labour in Indian
+ villages.
+</div>
+</td>
+
+<td>
+<center>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+<span class="fa fa-star"></span>
+</center>
+</td>
+
+<td>
+Rating:
+<span class="starRating">
+        <input id="rati5" type="radio" name="rating2" value="5" onclick="myfunc5()">
+        <label for="rati5">5</label>
+        <input id="rati4" type="radio" name="rating2" value="4" onclick="myfunc4()">
+        <label for="rati4">4</label>
+        <input id="rati3" type="radio" name="rating2" value="3" onclick="myfunc3()">
+        <label for="rati3">3</label>
+        <input id="rati2" type="radio" name="rating2" value="2" onclick="myfunc2()">
+        <label for="rati2">2</label>
+        <input id="rati1" type="radio" name="rating2" value="1" onclick="myfunc1()">
+        <label for="rati1">1</label>
+     </span>
+</td>
+
+</tr>
+
+<tr>
+<td>Comdey
+<img src="comdey.jpg" width="100%" height="100%" / >
+</td>
+<td>
+<div class="ex1">Every week, comic crusaders test the patience of 
+celebrity guests by taking a jibe at them and mimicking 
+their manners. They make unpleasant jokes about them but 
+they take it in good faith.
+Comedy Nights Bachao (English: Comedy Nights, Help!) was 
+an Indian comedy television series which premiered on 5 
+September 2015.[2] The series used to air on Sunday nights 
+on Colors TV. The series was a reality show with a format 
+similar to Comedy Circus. It had many of the same production 
+team members[3] and was produced by Optimystix Entertainment. 
+The presenters of this show were Krushna Abhishek, Sudesh 
+Lehri, Bharti Singh. and Mubeen.</div>
+</td>
+<td>
+<center>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+</center>
+</td>
+<td>
+
+      Rating:
+      <span class="starRating">
+        <input id="rat5" type="radio" name="rating3" value="5" onclick="myfunc5()">
+        <label for="rat5">5</label>
+        <input id="rat4" type="radio" name="rating3" value="4" onclick="myfunc4()">
+        <label for="rat4">4</label>
+        <input id="rat3" type="radio" name="rating3" value="3" onclick="myfunc3()">
+        <label for="rat3">3</label>
+        <input id="rat2" type="radio" name="rating3" value="2" onclick="myfunc2()">
+        <label for="rat2">2</label>
+        <input id="rat1" type="radio" name="rating3" value="1" onclick="myfunc1()">
+        <label for="rat1">1</label>
+      </span></br></br>
+    
+</td>
+</tr>
+</table>
+<p id ="11">   </p>
+
+<script>
+function myfunc1(){
+alert("The rating is 1 stars");
+document.getElementById("11").innerHTML="1 starts";
+}
+function myfunc2(){
+alert("The rating is 2 stars");
+document.getElementById("11").innerHTML="2 starts";
+}
+function myfunc3(){
+alert("The rating is 3 stars");
+document.getElementById("11").innerHTML="3 starts";
+}
+function myfunc4(){
+alert("The rating is 4 stars");
+document.getElementById("11").innerHTML="4 starts";
+}
+function myfunc5(){
+alert("The rating is 5 stars");
+document.getElementById("11").innerHTML="5 starts";
+}
+
+
+
+</script>
+
+<footer style="color:red">
+<p> <b>For any complaints about this channels contact:<b>
+<a href="mailto:colorshinid@gmail.com">colorshinid@gmail.com
+</a></p> 
+<a href= "allcolors.html">Go back to the previous page</a>
+
+</footer>
+</body>
+</html>
+

@@ -1,0 +1,273 @@
+<DOCTYPE! html>
+<html>
+<title>Hungama Tv</title>
+<head>
+<h1>Welcome to Hungama Channels</h1>
+<h3>Please select any of the serial you want to review below</h3>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="stylesheet.css">
+<style>
+
+html{
+border: 10px solid black;
+}
+body{
+background: #ffcc99;
+}
+a{
+text-decoration: none;
+color:blue;
+}
+
+#more {display: none;}
+
+table,td,tr,th{
+border: 2px solid black ;
+border-collapse: collapse;
+}
+th{
+font-size: 28;
+}
+
+td{
+padding-left: 10px;
+font-size: 22px;
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+
+div.ex1 {
+  background-color: lightblue;
+  height: 200;
+  width: 400;
+   overflow: scroll;
+}
+
+.checked {
+  color: orange;
+}
+</style>
+</head>
+
+<body>
+
+
+<table  align ="center" cellpadding="20px">
+<tr>
+<th align="left" width="30%">Serials</th>
+<th  width="30%">Description</th>
+<th  width="20%">Ratings</th>
+<th  width="20%">Feedback(optional)</th>
+</tr>
+
+<tr>
+<td >Shin Chan
+<img src="sinchan.jpg" width="100%" height="100%" />
+</td>
+<td ><div class="ex1">
+Crayon Shin-chan (Japanese: クレヨンしんちゃん, Hepburn: Kureyon Shin-chan), also known as Shin Chan, is a Japanese manga series written and illustrated by Yoshito Usui. It follows the adventures of the five-year-old Shinnosuke "Shin" Nohara and his parents, baby sister, dog, neighbours, and friends and is set in Kasukabe, Saitama Prefecture of Japan.
+Crayon Shin-chan first appeared in 1990 in a Japanese weekly magazine called Weekly Manga Action, which was published by Futabasha. Due to the death of author Yoshito Usui, the manga in its original form ended on September 11, 2009. A new manga began in the summer of 2010 by members of Usui's team,[5] titled New Crayon Shin-chan (新クレヨンしんちゃん, Shin Kureyon Shin-chan).
+An anime adaptation of the series began airing on TV Asahi in 1992 and is still ongoing on several television networks, worldwide. The show has now been dubbed in 30 languages[6] which aired in 45 countries,[7] has over 1007 episodes and 26 full-length movies. More than 275 million copies of the manga have been sold worldwide in 20 years.
+An anime spin-off titled Super Shiro, produced by Science Saru, premiered in October 2019.[8] The story follows Nohara's family dog, Shiro, becoming a superhero and protecting the legendary bone "Bobobobobone" from the evil inventor dog, Dekapoo and his ambitions of world domination.[9
+
+</div>
+</td>
+<td>
+<center>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</center>
+</td>
+
+<td>
+
+Rating:
+<span class="starRating">
+<input id="rating5" type="radio" name="rating" value="5" onclick="myfunc5()">
+<label for="rating5">5</label>
+<input id="rating4" type="radio" name="rating" value="4"onclick="myfunc4() ">
+<label for="rating4">4</label>
+<input id="rating3" type="radio" name="rating" value="3" onclick="myfunc3()">
+<label for="rating3">3</label>
+<input id="rating2" type="radio" name="rating" value="2"onclick="myfunc2()" >
+<label for="rating2">2</label>
+<input id="rating1" type="radio" name="rating" value="1"onclick="myfunc1()"  >
+<label for="rating1">1</label>
+</span>
+    
+</td>
+</tr>
+
+<tr>
+<td >Kochira Katsushika-ku Kameari Kōen-mae Hashutsujo
+<img src="kochira.jpg" width="100%" height="100%">
+</td>
+<td >
+<div class="ex1">
+<p>Kochira Katsushika-ku Kameari Kōen Mae Hashutsujo (こちら葛飾区亀有公園前派出所, lit. "This is the Police Station in Front of Kameari Park in Katsushika Ward"), often shortened to KochiKame (こち亀), is a Japanese comedy manga series written and illustrated by Osamu Akimoto. It takes place in the present day, in and around a neighborhood police station (kōban) in the downtown part of Tokyo, and revolves around the misadventures of middle-aged cop Kankichi Ryotsu. The official English title is KochiKame: Tokyo Beat Cops.[2][3]
+It was continuously serialized in Weekly Shōnen Jump for 40 years, from September 1976 to September 2016. Its 1,960 chapters were collected into 200 tankōbon volumes, making it the manga series with the highest number of volumes.[4][5] The manga has been adapted into an anime television series, produced by Studio Gallop and broadcast in Japan by Fuji TV, three theatrical animated films (by Tatsunoko and Gallop, respectively), two live-action movies, several stage adaptations, and a live-action television series. As of 2014, the series had sold over 157 million tankōbon copies, making KochiKame one of the best-selling manga series in history. In 2005, TV Asahi named the anime number 36 on its list of the Top 100 Anime. The series was awarded a Guinness World Record for "Most volumes published for a single manga series.
+
+ </div>
+
+</td>
+
+<td>
+<center>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</center>
+</td>
+
+<td>
+Rating:
+<span class="starRating">
+        <input id="ratin5" type="radio" name="rating1" value="5" onclick="myfunc5()">
+        <label for="ratin5">5</label>
+        <input id="ratin4" type="radio" name="rating1" value="4" onclick="myfunc4()">
+        <label for="ratin4">4</label>
+        <input id="ratin3" type="radio" name="rating1" value="3" onclick="myfunc3()">   
+		<label for="ratin3">3</label>
+        <input id="ratin2" type="radio" name="rating1" value="2" onclick="myfunc2()">
+        <label for="ratin2">2</label>
+        <input id="ratin1" type="radio" name="rating1" value="1" onclick="myfunc1()">
+        <label for="ratin1">1</label>
+ </span>
+</td>
+</tr>
+
+<tr>
+<td>Kiteretsu Daihyakka
+<img src="Xmen.jpg" width="100%" height="100%" />
+</td>
+<td>
+<div class="ex1">
+Kiteretsu Daihyakka (キテレツ大百科) (Also known as Kiteretsu Encyclopedia or only Kiteretsu) is a manga series by duo Fujiko Fujio which ran in the children's magazine Kodomo no Hikari from April 1974 to July 1977. The manga was later made into a 331-episode anime television series which ran on Fuji TV from March 27, 1988 to June 9, 1996. A Hindi dub of the anime airs in India on Disney Channel India, Disney XD and Cartoon Network.[1][2] In India it also aired in Hindi language on Hungama tv.The series was licensed for Spain by LUK Internacional under the title of "Kiteretsu, el primo más listo de Nobita". (English Translation: Nobita's Smarter Cousin.)[3] As of September 2016, a remastered version of the series airs on Animax in Japan.[4]
+
+
+</div>
+</td>
+
+<td>
+<center>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</center>
+</td>
+
+<td>
+Rating:
+<span class="starRating">
+        <input id="rati5" type="radio" name="rating2" value="5" onclick="myfunc5()">
+        <label for="rati5">5</label>
+        <input id="rati4" type="radio" name="rating2" value="4" onclick="myfunc4()">
+        <label for="rati4">4</label>
+        <input id="rati3" type="radio" name="rating2" value="3" onclick="myfunc3()">
+        <label for="rati3">3</label>
+        <input id="rati2" type="radio" name="rating2" value="2" onclick="myfunc2()">
+        <label for="rati2">2</label>
+        <input id="rati1" type="radio" name="rating2" value="1" onclick="myfunc1()">
+        <label for="rati1">1</label>
+     </span>
+</td>
+
+</tr>
+
+<tr>
+<td>Doraemon
+<img src="doremon.jpg" width="100%" height="100%" / >
+</td>
+<td>
+<div class="ex1">
+Doraemon (Japanese: ドラえもん Japanese pronunciation: [do̞ɾa̠e̞mõ̞ɴ]) is a Japanese manga series written and illustrated by Fujiko Fujio, the pen name of the duo Hiroshi Fujimoto and Motoo Abiko. The series has also been adapted into a successful anime series and media franchise. The story revolves around an earless robotic cat named Doraemon, who travels back in time from the 22nd century to aid a boy named Nobita Nobi (野比のび太, Nobi Nobita).
+The first full story in the Doraemon manga series was published in January 1970. A pre-advertisement for the manga was published in six different magazines in December 1969. A total of 1,465 stories were created in the original series, which are published by Shogakukan. It is one of the best-selling manga in the world, and has sold over 100 million copies as of 2015.
+
+</div>
+</td>
+<td>
+<center>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</center>
+</td>
+<td>
+
+      Rating:
+      <span class="starRating">
+        <input id="rat5" type="radio" name="rating3" value="5" onclick="myfunc5()">
+        <label for="rat5">5</label>
+        <input id="rat4" type="radio" name="rating3" value="4" onclick="myfunc4()">
+        <label for="rat4">4</label>
+        <input id="rat3" type="radio" name="rating3" value="3" onclick="myfunc3()">
+        <label for="rat3">3</label>
+        <input id="rat2" type="radio" name="rating3" value="2" onclick="myfunc2()">
+        <label for="rat2">2</label>
+        <input id="rat1" type="radio" name="rating3" value="1" onclick="myfunc1()">
+        <label for="rat1">1</label>
+      </span></br></br>
+    
+</td>
+</tr>
+</table>
+<p id ="11">   </p>
+
+<script>
+function myfunc1(){
+alert("The rating is 1 stars");
+document.getElementById("11").innerHTML="1 starts";
+}
+function myfunc2(){
+alert("The rating is 2 stars");
+document.getElementById("11").innerHTML="2 starts";
+}
+function myfunc3(){
+alert("The rating is 3 stars");
+document.getElementById("11").innerHTML="3 starts";
+}
+function myfunc4(){
+alert("The rating is 4 stars");
+document.getElementById("11").innerHTML="4 starts";
+}
+function myfunc5(){
+alert("The rating is 5 stars");
+document.getElementById("11").innerHTML="5 starts";
+}
+
+
+
+</script>
+
+<footer>
+<p> For any complaints about this channels contact:
+<a href="mailto:hungama@gmail.com">hungama@gmail.com
+</a></p> 
+<a href= "allstar.html">Go back to the previous page</a>
+
+</footer>
+</body>
+</html>
+

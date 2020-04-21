@@ -1,0 +1,273 @@
+<DOCTYPE! html>
+<html>
+<title>Marvel HQ Tv</title>
+<head>
+<h1>Welcome to Marvel HQ </h1>
+<h3>Please select any of the serial you want to review below</h3>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="stylesheet.css">
+<style>
+
+html{
+border: 10px solid black;
+}
+
+body{
+background: #ffcc99;
+}
+a{
+text-decoration: none;
+color:blue;
+}
+
+#more {display: none;}
+
+table,td,tr,th{
+border: 2px solid black ;
+border-collapse: collapse;
+}
+th{
+font-size: 28;
+}
+
+td{
+padding-left: 10px;
+font-size: 22px;
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+
+div.ex1 {
+  background-color: lightblue;
+  height: 200;
+  width: 400;
+   overflow: scroll;
+}
+
+.checked {
+  color: orange;
+}
+</style>
+</head>
+
+<body>
+
+
+<table  align ="center" cellpadding="20px">
+<tr>
+<th align="left" width="30%">Serials</th>
+<th  width="30%">Description</th>
+<th  width="20%">Ratings</th>
+<th  width="20%">Feedback(optional)</th>
+</tr>
+
+<tr>
+<td >Ultimate Spider-Man
+<img src="spider.jpg" width="100%" height="100%" />
+</td>
+<td ><div class="ex1">
+Ultimate Spider-Man is an American animated television series based on the Spider-Man comics published by Marvel Comics. The series featured writers such as Brian Michael Bendis (who also writes the comic book series of the same name), Paul Dini, and Man of Action (a group consisting of Steven T. Seagle, Joe Kelly, Joe Casey and Duncan Rouleau). The third season was retitled Ultimate Spider-Man: Web-Warriors and the fourth and final season was retitled Ultimate Spider-Man vs. the Sinister 6.
+It was first announced to air on Disney XD in early 2012,[3][4] and debuted alongside the second season of The Avengers: Earth's Mightiest Heroes as part of the Marvel Universe programming block on April 1, 2012.
+The series ended on January 7, 2017, with the two-part "Graduation Day" episode. The series consisted of four seasons of twenty-six episodes each.
+
+</div>
+</td>
+<td>
+<center>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</center>
+</td>
+
+<td>
+
+Rating:
+<span class="starRating">
+<input id="rating5" type="radio" name="rating" value="5" onclick="myfunc5()">
+<label for="rating5">5</label>
+<input id="rating4" type="radio" name="rating" value="4"onclick="myfunc4() ">
+<label for="rating4">4</label>
+<input id="rating3" type="radio" name="rating" value="3" onclick="myfunc3()">
+<label for="rating3">3</label>
+<input id="rating2" type="radio" name="rating" value="2"onclick="myfunc2()" >
+<label for="rating2">2</label>
+<input id="rating1" type="radio" name="rating" value="1"onclick="myfunc1()"  >
+<label for="rating1">1</label>
+</span>
+    
+</td>
+</tr>
+
+<tr>
+<td >Avengers Assemble
+<img src="avengers.jpg" width="100%" height="100%">
+</td>
+<td >
+<div class="ex1">
+<p>Avengers Assemble is an American animated television series based on the fictional Marvel Comics superhero team known as the Avengers. Designed to capitalize on the success of the 2012 film, The Avengers, the series premiered on Disney XD on May 26, 2013,[1][3] as the successor to The Avengers: Earth's Mightiest Heroes.
+It previously aired alongside Ultimate Spider-Man and Guardians of the Galaxy as a part of the Marvel Universe block. Joe Casey, Joe Kelly, Duncan Rouleau and Steven T. Seagle, known collectively as Man of Action, developed the series and were executive producers on seasons 1 and 2.[4]
+
+ </div>
+
+</td>
+
+<td>
+<center>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</center>
+</td>
+
+<td>
+Rating:
+<span class="starRating">
+        <input id="ratin5" type="radio" name="rating1" value="5" onclick="myfunc5()">
+        <label for="ratin5">5</label>
+        <input id="ratin4" type="radio" name="rating1" value="4" onclick="myfunc4()">
+        <label for="ratin4">4</label>
+        <input id="ratin3" type="radio" name="rating1" value="3" onclick="myfunc3()">   
+		<label for="ratin3">3</label>
+        <input id="ratin2" type="radio" name="rating1" value="2" onclick="myfunc2()">
+        <label for="ratin2">2</label>
+        <input id="ratin1" type="radio" name="rating1" value="1" onclick="myfunc1()">
+        <label for="ratin1">1</label>
+ </span>
+</td>
+</tr>
+
+<tr>
+<td>X-Men (TV series)
+<img src="Xmen.jpg" width="100%" height="100%" />
+</td>
+<td>
+<div class="ex1">
+X-Men: The Animated Series (or simply known as X-Men), is an American animated television series which debuted on October 31, 1992, in the United States on the Fox Kids Network.[3] X-Men was Marvel Comics' second attempt at an animated X-Men TV series after the pilot, X-Men: Pryde of the X-Men, was not picked up.
+
+
+</div>
+</td>
+
+<td>
+<center>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</center>
+</td>
+
+<td>
+Rating:
+<span class="starRating">
+        <input id="rati5" type="radio" name="rating2" value="5" onclick="myfunc5()">
+        <label for="rati5">5</label>
+        <input id="rati4" type="radio" name="rating2" value="4" onclick="myfunc4()">
+        <label for="rati4">4</label>
+        <input id="rati3" type="radio" name="rating2" value="3" onclick="myfunc3()">
+        <label for="rati3">3</label>
+        <input id="rati2" type="radio" name="rating2" value="2" onclick="myfunc2()">
+        <label for="rati2">2</label>
+        <input id="rati1" type="radio" name="rating2" value="1" onclick="myfunc1()">
+        <label for="rati1">1</label>
+     </span>
+</td>
+
+</tr>
+
+<tr>
+<td>Runaways
+<img src="runaways.jpg" width="100%" height="100%" / >
+</td>
+<td>
+<div class="ex1">
+Marvel's Runaways, or simply Runaways, is an American web television series created for Hulu by Josh Schwartz and Stephanie Savage, based on the Marvel Comics superhero team of the same name. It is set in the Marvel Cinematic Universe (MCU), sharing continuity with the films and other television series of the franchise. The series is produced by ABC Signature Studios, Marvel Television and Fake Empire Productions, with Schwartz and Savage serving as showrunners.
+Rhenzy Feliz, Lyrica Okano, Virginia Gardner, Ariela Barer, Gregg Sulkin, and Allegra Acosta star as the Runaways, six teenagers from different backgrounds who unite against their parents, the Pride, portrayed by Angel Parker, Ryan Sands, Annie Wersching, Kip Pardue, Ever Carradine, James Marsters, Brigid Brannagh, Kevin Weisman, Brittany Ishibashi, and James Yaegashi. Julian McMahon also stars in the second season as Jonah, after recurring in the first, while Clarissa Thibeaux stars in the third season as Xavin, after recurring in the second.
+
+</div>
+</td>
+<td>
+<center>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</center>
+</td>
+<td>
+
+      Rating:
+      <span class="starRating">
+        <input id="rat5" type="radio" name="rating3" value="5" onclick="myfunc5()">
+        <label for="rat5">5</label>
+        <input id="rat4" type="radio" name="rating3" value="4" onclick="myfunc4()">
+        <label for="rat4">4</label>
+        <input id="rat3" type="radio" name="rating3" value="3" onclick="myfunc3()">
+        <label for="rat3">3</label>
+        <input id="rat2" type="radio" name="rating3" value="2" onclick="myfunc2()">
+        <label for="rat2">2</label>
+        <input id="rat1" type="radio" name="rating3" value="1" onclick="myfunc1()">
+        <label for="rat1">1</label>
+      </span></br></br>
+    
+</td>
+</tr>
+</table>
+<p id ="11">   </p>
+
+<script>
+function myfunc1(){
+alert("The rating is 1 stars");
+document.getElementById("11").innerHTML="1 starts";
+}
+function myfunc2(){
+alert("The rating is 2 stars");
+document.getElementById("11").innerHTML="2 starts";
+}
+function myfunc3(){
+alert("The rating is 3 stars");
+document.getElementById("11").innerHTML="3 starts";
+}
+function myfunc4(){
+alert("The rating is 4 stars");
+document.getElementById("11").innerHTML="4 starts";
+}
+function myfunc5(){
+alert("The rating is 5 stars");
+document.getElementById("11").innerHTML="5 starts";
+}
+
+
+
+</script>
+
+<footer>
+<p> For any complaints about this channels contact:
+<a href="mailto:marvelhq@gmail.com">marvelhq@gmail.com
+</a></p> 
+<a href= "allstar.html">Go back to the previous page</a>
+
+</footer>
+</body>
+</html>
+

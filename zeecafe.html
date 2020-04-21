@@ -1,0 +1,272 @@
+<DOCTYPE! html>
+<html>
+<title>Zee Cafe Tv</title>
+<head>
+<h1>Welcome to Zee Cafe Channels</h1>
+<h3>Please select any of the serial you want to review below</h3>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="stylesheet.css">
+<style>
+
+html{
+border: 10px solid black;
+}
+body{
+background: #ffff4d;
+}
+a{
+text-decoration: none;
+color:blue;
+}
+
+#more {display: none;}
+
+table,td,tr,th{
+border: 2px solid black ;
+border-collapse: collapse;
+}
+th{
+font-size: 28;
+}
+
+td{
+padding-left: 10px;
+font-size: 22px;
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+
+div.ex1 {
+  background-color: lightblue;
+  height: 200;
+  width: 400;
+   overflow: scroll;
+}
+
+.checked {
+  color: orange;
+}
+</style>
+</head>
+
+<body>
+
+
+<table  align ="center" cellpadding="20px">
+<tr>
+<th align="left" width="30%">Serials</th>
+<th  width="30%">Description</th>
+<th  width="20%">Ratings</th>
+<th  width="20%">Feedback(optional)</th>
+</tr>
+
+<tr>
+<td >Will & Grace
+<img src="will.jpg" width="100%" height="100%" />
+</td>
+<td ><div class="ex1">
+Will & Grace is an American sitcom television series created by Max Mutchnick and David Kohan. Set in New York City, the show focuses on the friendship between best friends Will Truman (Eric McCormack), a gay lawyer, and Grace Adler (Debra Messing), a straight interior designer. The show was broadcast on NBC from September 21, 1998, to May 18, 2006, for a total of eight seasons, and returned to NBC on September 28, 2017. Will & Grace has been one of the most successful television series with gay principal characters.[2]
+Despite initial criticism for its stereotypical portrayal of homosexual characters, it went on to become a staple of NBC's Must See TV Thursday night lineup and was met with continued critical acclaim. It was ensconced in the Nielsen top 20 for half of its 1998–2006 network run. The show was the highest-rated sitcom among adults 18–49 from 2001 to 2005. Will & Grace earned 18 Primetime Emmy Awards and 83 nominations. Each main actor received an Emmy Award throughout the series. In 2014 the Writers Guild of America placed the sitcom at number 94 in their list of the 101 best-written TV series of all time.[3] Since the final episode of the 1998–2006 run aired, the sitcom has been credited with helping and improving public opinion of the LGBT community, with former U.S. Vice President Joe Biden commenting that the show "probably did more to educate the American public" on LGBT issues "than almost anything anybody has ever done so far".[4] In 2014, the Smithsonian Institution added an LGBT history collection to their museum which included items from Will & Grace. The curator Dwight Blocker Bowers stated that the sitcom used "comedy to familiarize a mainstream audience with gay culture" in a way that was "daring and broke ground" in American media.
+
+</div>
+</td>
+<td>
+<center>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</center>
+</td>
+
+<td>
+
+Rating:
+<span class="starRating">
+<input id="rating5" type="radio" name="rating" value="5" onclick="myfunc5()">
+<label for="rating5">5</label>
+<input id="rating4" type="radio" name="rating" value="4"onclick="myfunc4() ">
+<label for="rating4">4</label>
+<input id="rating3" type="radio" name="rating" value="3" onclick="myfunc3()">
+<label for="rating3">3</label>
+<input id="rating2" type="radio" name="rating" value="2"onclick="myfunc2()" >
+<label for="rating2">2</label>
+<input id="rating1" type="radio" name="rating" value="1"onclick="myfunc1()"  >
+<label for="rating1">1</label>
+</span>
+    
+</td>
+</tr>
+
+<tr>
+<td >BattleBots
+<img src="battle.jpg" width="100%" height="40%">
+</td>
+<td >
+<div class="ex1">
+<p>BattleBots is an American robot combat television series. Competitors design and operate remote-controlled armed and armored machines designed to fight in an arena combat elimination tournament. For five seasons, BattleBots aired on the American Comedy Central and was hosted by Bil Dwyer, Sean Salisbury, and Tim Green. Comedy Central's first season premiered on August 23, 2000, and its fifth and last season ended on December 21, 2002.
+A six-episode revival series premiered on ABC on June 21, 2015, to generally favorable reviews and ratings. Additionally, ABC renewed BattleBots for a seventh season, which premiered on June 23, 2016.
+
+ </div>
+
+</td>
+
+<td>
+<center>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</center>
+</td>
+
+<td>
+Rating:
+<span class="starRating">
+        <input id="ratin5" type="radio" name="rating1" value="5" onclick="myfunc5()">
+        <label for="ratin5">5</label>
+        <input id="ratin4" type="radio" name="rating1" value="4" onclick="myfunc4()">
+        <label for="ratin4">4</label>
+        <input id="ratin3" type="radio" name="rating1" value="3" onclick="myfunc3()">   
+		<label for="ratin3">3</label>
+        <input id="ratin2" type="radio" name="rating1" value="2" onclick="myfunc2()">
+        <label for="ratin2">2</label>
+        <input id="ratin1" type="radio" name="rating1" value="1" onclick="myfunc1()">
+        <label for="ratin1">1</label>
+ </span>
+</td>
+</tr>
+
+<tr>
+<td>The Good Fight
+<img src="Thegood.jpg" width="100%" height="50%" />
+</td>
+<td>
+<div class="ex1">
+The Good Fight is an American legal web television series produced for CBS's streaming service CBS All Access. It is CBS All Access's first original scripted series.[1] The series—created by Robert King, Michelle King, and Phil Alden Robinson—is a spin-off and sequel to The Good Wife, which was created by the Kings. The first season contains 10 episodes,[2] and premiered on February 19, 2017, with the first episode airing on CBS and the following nine episodes on CBS All Access.[1] The series was initially scheduled to air in May 2017 but was moved up after production delays forced CBS to postpone the premiere of the new series Star Trek: Discovery.[3]
+The series follows Christine Baranski as Diane Lockhart, as she loses her employment after an enormous financial scam destroys the reputation of her goddaughter Maia (Rose Leslie) and Diane's savings, leading them to join Lucca Quinn (Cush Jumbo) at one of Chicago's preeminent law firms. The series stars Baranski, Leslie, Jumbo, Erica Tazel, Sarah Steele, Justin Bartha, Delroy Lindo, Nyambi Nyambi, Michael Boatman, and Audra McDonald, and features Paul Guilfoyle and Bernadette Peters in recurring roles. It is executive produced by Robert King, Michelle King, Ridley Scott, David W. Zucker, Liz Glotzer, Brooke Kennedy and Alison Scott, with Phil Alden Robinson producing and co-writing the first episode.[1]
+
+</div>
+</td>
+
+<td>
+<center>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</center>
+</td>
+
+<td>
+Rating:
+<span class="starRating">
+        <input id="rati5" type="radio" name="rating2" value="5" onclick="myfunc5()">
+        <label for="rati5">5</label>
+        <input id="rati4" type="radio" name="rating2" value="4" onclick="myfunc4()">
+        <label for="rati4">4</label>
+        <input id="rati3" type="radio" name="rating2" value="3" onclick="myfunc3()">
+        <label for="rati3">3</label>
+        <input id="rati2" type="radio" name="rating2" value="2" onclick="myfunc2()">
+        <label for="rati2">2</label>
+        <input id="rati1" type="radio" name="rating2" value="1" onclick="myfunc1()">
+        <label for="rati1">1</label>
+     </span>
+</td>
+
+</tr>
+
+<tr>
+<td>
+House of Cards
+<img src="house.jpg" width="100%" height="90%" / >
+</td>
+<td>
+<div class="ex1">
+House of Cards is an American political thriller web television series created by Beau Willimon. It is an adaptation of the 1990 BBC miniseries of the same name and based on the novel of the same name by Michael Dobbs. The first 13-episode season was released on February 1, 2013, on the streaming service Netflix.
+House of Cards is set in Washington, D.C. and is the story of Congressman Frank Underwood (Kevin Spacey), a Democrat from South Carolina's 5th congressional district and House Majority Whip, and his equally ambitious wife Claire Underwood (Robin Wright). Frank is passed over for appointment as Secretary of State, so he initiates an elaborate plan to attain power, aided by Claire. The series deals with themes of ruthless pragmatism,[2] manipulation, betrayal, and power.[3]
+
+</div>
+</td>
+<td>
+<center>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</center>
+</td>
+<td>
+
+      Rating:
+      <span class="starRating">
+        <input id="rat5" type="radio" name="rating3" value="5" onclick="myfunc5()">
+        <label for="rat5">5</label>
+        <input id="rat4" type="radio" name="rating3" value="4" onclick="myfunc4()">
+        <label for="rat4">4</label>
+        <input id="rat3" type="radio" name="rating3" value="3" onclick="myfunc3()">
+        <label for="rat3">3</label>
+        <input id="rat2" type="radio" name="rating3" value="2" onclick="myfunc2()">
+        <label for="rat2">2</label>
+        <input id="rat1" type="radio" name="rating3" value="1" onclick="myfunc1()">
+        <label for="rat1">1</label>
+      </span></br></br>
+    
+</td>
+</tr>
+</table>
+<p id ="11">   </p>
+
+<script>
+function myfunc1(){
+alert("The rating is 1 stars");
+document.getElementById("11").innerHTML="1 starts";
+}
+function myfunc2(){
+alert("The rating is 2 stars");
+document.getElementById("11").innerHTML="2 starts";
+}
+function myfunc3(){
+alert("The rating is 3 stars");
+document.getElementById("11").innerHTML="3 starts";
+}
+function myfunc4(){
+alert("The rating is 4 stars");
+document.getElementById("11").innerHTML="4 starts";
+}
+function myfunc5(){
+alert("The rating is 5 stars");
+document.getElementById("11").innerHTML="5 starts";
+}
+
+
+
+</script>
+
+<footer>
+<p> For any complaints about this channels contact:
+<a href="mailto:zeecafe@gmail.com">zeecafe@gmail.com
+</a></p> 
+<a href= "allzee.html">Go back to the previous page</a>
+
+</footer>
+</body>
+</html>
+
